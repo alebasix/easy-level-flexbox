@@ -11,7 +11,7 @@ nav {
   background-color: black;
   display: inline-flex;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 99vw;
  justify-content: space-between;
  align-items: center;
 }
@@ -49,4 +49,13 @@ a,div {
   font-size: x-large;
   color: white;
   margin: 20px 0;
+}
+
+.backgroundwrapper {
+  background-color: wheat;
+  background-image: url(restaurant.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 99vw;
 }
