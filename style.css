@@ -10,15 +10,35 @@ body {
 nav {
   background-color: black;
   display: flex;
-  justify-content:center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.firsta {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+
+.midas {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.lasta {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
 }
 
 a {
   text-decoration: none;
   font-size: large;
   color: white;
+  margin: 40px 0;
 }
 
-.fontstylefortagsa  {
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.mida {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
